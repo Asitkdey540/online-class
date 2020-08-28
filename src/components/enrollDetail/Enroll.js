@@ -12,7 +12,8 @@ const Enroll = (props) => {
     return (
         <div className="enroll">
             <h3>Order Sammary</h3>
-            <p>Course ordered: ${total}</p>
+            <p><small>Course ordered: {enrollDetail.length}</small></p>
+            <p>Total price: ${total}</p>
 
         </div>
     );
